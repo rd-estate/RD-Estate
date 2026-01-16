@@ -13,7 +13,7 @@ export const projectsData = [
     shortPrice: "₹55 Lakhs",
     location: "Mhatobachi Alandi",
     description: "Your perfect weekend gateway. Own a massive 11 Guntha plot that comes with a ready-constructed farmhouse, lavish lawn, and sitting area. Experience the luxury of nature with resort-like amenities including a swimming pool and temple.",
-    videoSrc: "https://www.youtube.com/embed/9RFmBSgxAGs", // Rename your video file to this
+    videoSrc: "https://www.youtube.com/embed/O3gLt2k1zdQ", // Rename your video file to this
     posterSrc: "/src/assets/images/sahyadri-hills1.png", // You'll need a cover image
     mapSrc: "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3784.576169902676!2d74.0528980751901!3d18.445918082632296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTjCsDI2JzQ1LjMiTiA3NMKwMDMnMTkuNyJF!5e0!3m2!1sen!2sin!4v1715423891000!5m2!1sen!2sin", // Add real map link later
     galleryImages: [
