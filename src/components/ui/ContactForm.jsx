@@ -111,7 +111,7 @@ const ContactForm = ({ plotInterest = "General Inquiry" }) => {
         </button>
         
         <p className="text-xs text-gray-500 text-center mt-4">
-          By submitting, you agree to receive a call/WhatsApp from Kshitij Realty regarding your inquiry.
+          By submitting, you agree to receive a call/WhatsApp from ED-Estate regarding your inquiry.
         </p>
       </div>
     </form>
