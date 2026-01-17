@@ -20,7 +20,7 @@ export const projectsData = [
       "/assets/images/shayadri-hills.jpeg",
       "/assets/images/sahyadri-hills3.png",
       "/assets/images/shayadri-hills3.jpeg",
-      "/assets/videos/shayadri-hills2.MP4",
+      "/assets/videos/shayadri-hills2.mp4",
       
     ],
     features: [
