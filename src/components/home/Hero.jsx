@@ -15,7 +15,7 @@ const Hero = () => {
           className="w-full h-full object-cover"
         >
           {/* Using one of your provided videos as the main hero background */}
-          <source src="/assets/videos/canal.MP4" type="video/mp4" />
+          {/* <source src="/assets/videos/canal.MP4" type="video/mp4" /> */}
         </video>
         {/* Dark Overlay for Text Readability */}
         <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/40 to-black/70"></div>
