@@ -10,7 +10,7 @@ const About = () => {
           <div className="w-full lg:w-1/2 relative">
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               <img 
-                src="/src/assets/images/About.jpeg" 
+                src="/assets/images/About.jpeg" 
                 alt="RD-Estate Team" 
                 className="w-full h-auto object-cover"
                 loading="lazy"

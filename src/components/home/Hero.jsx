@@ -11,7 +11,7 @@ const Hero = () => {
           muted 
           loop 
           playsInline 
-          poster="/src/assets/images/land-hero.png" // Fallback image
+          poster="/assets/images/land-hero.png" // Fallback image
           className="w-full h-full object-cover"
         >
           {/* Using one of your provided videos as the main hero background */}
