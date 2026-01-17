@@ -16,7 +16,7 @@ const Home = () => {
     "@context": "https://schema.org",
     "@type": "RealEstateAgent",
     "name": "RD-Estate & Developers",
-    "image": "https://rdestate.com/assets/images/logo.png",
+    "image": "https://rd-estate.in/assets/images/logo.png",
     "telephone": "+919022003828",
     "address": {
       "@type": "PostalAddress",
