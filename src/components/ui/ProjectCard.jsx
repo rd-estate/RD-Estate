@@ -4,52 +4,56 @@ import { FaMapMarkerAlt, FaRoad, FaArrowRight } from 'react-icons/fa';
 const ProjectCard = ({ project }) => {
   return (
     <div className="group bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col h-full">
-      {/* Image Container */}
-      <div className="relative h-56 overflow-hidden">
+      
+      {/* MOBILE FIX: Use aspect-[4/3] on mobile for taller images, aspect-video on desktop */}
+      <div className="relative w-full aspect-[4/3] md:aspect-video bg-gray-900 overflow-hidden">
+        {/* POSTER IMAGE */}
         <img 
           src={project.posterSrc} 
           alt={project.title} 
-          className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700"
+          // FIX: Only scale on desktop (md:group-hover) to avoid sticky hover on mobile
+          className="w-full h-full object-cover transform md:group-hover:scale-110 transition-transform duration-700"
           loading="lazy"
+          onError={(e) => {e.target.style.display='none'}} 
         />
+        
         {/* Status Badge */}
-        <div className="absolute top-3 right-3 bg-white/90 backdrop-blur text-primary text-xs font-bold px-3 py-1 rounded-full shadow-sm uppercase tracking-wider">
+        <div className="absolute top-3 right-3 bg-white text-primary text-[10px] font-bold px-2 py-1 rounded shadow-sm uppercase tracking-wider">
           {project.status}
         </div>
-        {/* Price Overlay (Mobile Friendly) */}
-        <div className="absolute bottom-0 left-0 w-full bg-gradient-to-t from-black/80 to-transparent p-4">
-          <p className="text-white font-bold text-lg">{project.shortPrice}</p>
+        
+        {/* Price Overlay */}
+        <div className="absolute bottom-0 left-0 w-full bg-gradient-to-t from-black/90 to-transparent p-3 pt-8">
+          <p className="text-white font-bold text-lg leading-none">{project.shortPrice}</p>
         </div>
       </div>
 
       {/* Content */}
-      <div className="p-5 flex flex-col flex-grow">
-        <h3 className="text-xl font-bold text-secondary mb-2 group-hover:text-primary transition-colors">
+      <div className="p-4 flex flex-col flex-grow">
+        <h3 className="text-lg font-bold text-secondary mb-1 truncate">
           {project.title}
         </h3>
         
-        <div className="flex items-start gap-2 text-sm text-gray-500 mb-4">
-          <FaMapMarkerAlt className="mt-1 text-primary flex-shrink-0" />
+        <div className="flex items-center gap-1 text-xs text-gray-500 mb-3">
+          <FaMapMarkerAlt className="text-primary" />
           <span>{project.location}</span>
         </div>
 
         {/* Features Preview */}
-        <div className="flex gap-4 mb-6 border-t border-gray-100 pt-4">
-          <div className="flex items-center gap-2 text-xs text-gray-600">
-             <span className="bg-green-50 text-green-700 p-1.5 rounded"><FaRoad /></span>
-             <span>40ft Roads</span>
+        <div className="flex gap-2 mb-4 mt-auto">
+          <div className="flex items-center gap-1 text-[10px] text-gray-600 bg-gray-50 px-2 py-1 rounded">
+             <FaRoad className="text-green-600"/> 40ft Roads
           </div>
-          <div className="flex items-center gap-2 text-xs text-gray-600">
-             <span className="bg-blue-50 text-blue-700 p-1.5 rounded font-bold">RERA</span>
-             <span>Compliant</span>
+          <div className="flex items-center gap-1 text-[10px] text-gray-600 bg-gray-50 px-2 py-1 rounded">
+             <span className="font-bold text-blue-600">RERA</span> Approved
           </div>
         </div>
 
         <Link 
           to={`/projects/${project.slug}`} 
-          className="mt-auto w-full btn btn-outline py-2 text-sm flex items-center justify-center gap-2 group-hover:bg-primary group-hover:text-white group-hover:border-primary"
+          className="w-full btn btn-outline py-2 text-sm flex items-center justify-center gap-2 hover:bg-primary hover:text-white active:bg-primary active:text-white"
         >
-          View Details <FaArrowRight className="text-xs transition-transform group-hover:translate-x-1" />
+          View Details <FaArrowRight className="text-xs" />
         </Link>
       </div>
     </div>

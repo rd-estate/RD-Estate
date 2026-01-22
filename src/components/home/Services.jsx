@@ -14,7 +14,7 @@ const features = [
   {
     icon: <FaChartLine />,
     title: "High Appreciation",
-    desc: "Our locations (Loni, Hadapsar, Frusungi, Uruli) are chosen for maximum ROI due to upcoming Ring Road and Metro projects."
+    desc: "Our locations (Loni, Hadapsar, Fursungi, Uruli) are chosen for maximum ROI due to upcoming Ring Road and Metro projects."
   },
   {
     icon: <FaHandshake />,

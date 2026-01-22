@@ -12,7 +12,7 @@ const SEO = ({
 }) => {
   const siteTitle = "RD-Estate & Developers | Premium Plots in Pune";
   const defaultDesc = "Buy verified NA residential plots in Loni Kalbhor, Hadapsar, and Uruli Kanchan. 100% clear title, RERA compliant land with 40ft roads and water supply.";
-  const siteUrl = "https://rd-estate.in"; // Replace with your actual domain later
+  const siteUrl = "https://www.rd-estate.in"; // Replace with your actual domain later
   const defaultImage = `${siteUrl}/assets/images/rd-logo.png`; 
 
   const finalTitle = title ? `${title} | RD-Estate` : siteTitle;

@@ -32,9 +32,10 @@ const Home = () => {
   return (
     <>
       <SEO 
-        title="Best NA Plots for Sale in Loni Kalbhor & Hadapsar"
+        /* 1. ADD NAME HERE: This appears on Google Search */
+        title="RD-Estate | Best Plots for Sale in Pune"
         description="RD-Estate offers premium residential plots in Pune. 100% clear title, ready possession, and loan facility available. Trusted by 500+ families."
-        keywords="plots in pune, land for sale,land for sale loni kalbhor, na plots hadapsar, rd estate"
+        keywords="rd estate, plots in pune, land for sale,land for sale pune, land for sale loni kalbhor, na plots hadapsar"
         schema={orgSchema}
       />
       <Hero />

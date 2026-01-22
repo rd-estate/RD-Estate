@@ -115,14 +115,14 @@ export const projectsData = [
     location: "Uruli Kanchan",
     description: "Our flagship project in Uruli Kanchan with top-class amenities.",
     videoSrc: "https://www.youtube.com/embed/SDohSrexjHw", 
-    posterSrc: "/assets/images/balaji-1.jpg", // Make sure you have this image or use a placeholder
+    posterSrc: "/assets/images/balaji-1.JPG", // Make sure you have this image or use a placeholder
     features: [
       { icon: <FaTrain/>, title: "Station", desc: "5min Away" },
       { icon: <FaRoad/>, title: "Highway", desc: "Touch" },
     ],
     mapSrc:"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3780.308197990253!2d73.9642318!3d18.4744714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2e921847ac037%3A0x74fb6cbf0346ee80!2sBalaji%20Vishva%20Phursungi!5e0!3m2!1sen!2sin!4v1711234567890!5m2!1sen!2sin&markers=color:red%7C18.4744714,73.9664236",
     amenities: ["Grand Entrance", "Garden"],
-    galleryImages: ["/assets/images/balaji-1.jpg", "/assets/images/balaji-2.jpg", "/assets/images/balaji-3.jpg"]
+    galleryImages: ["/assets/images/balaji-1.JPG", "/assets/images/balaji-2.jpg", "/assets/images/balaji-3.jpg"]
   },
   {
     id: "narayan-park",
@@ -135,13 +135,13 @@ export const projectsData = [
     location: "Canal Road",
     description: "Beautiful canal-touch plots. 100% Sold out and handed over.",
     videoSrc: "https://www.youtube.com/embed/ppoDOlqndLc",
-    posterSrc: "/assets/images/canal.jpg", // Make sure you have this image
+    posterSrc: "/assets/images/canal.JPG", // Make sure you have this image
     features: [
       { icon: <FaWater/>, title: "View", desc: "Canal Touch" },
     ],
     mapSrc:"https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d562.5494014971512!2d74.00085291462982!3d18.467064434457907!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1750515106966!5m2!1sen!2sin",
     amenities: ["Demarcation", "Name Plates"],
-    galleryImages: ["/assets/images/canal.jpg", "/assets/images/canal2.jpg", "/assets/images/canal3.png"]
+    galleryImages: ["/assets/images/canal.JPG", "/assets/images/canal2.JPG", "/assets/images/canal3.png"]
   },
 
     {
