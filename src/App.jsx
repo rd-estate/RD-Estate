@@ -28,6 +28,8 @@ function App() {
             {/* Dynamic Route for Single Projects (e.g., /projects/vasant-park) */}
             <Route path="/projects/:slug" element={<ProjectDetails />} />
             
+            <Route path="/available-plots" element={<AvailablePlots />} />
+            
             {/* 404 Catch-all Route */}
             <Route path="*" element={<NotFound />} />
           </Routes>
