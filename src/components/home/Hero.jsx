@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { FaPhoneAlt, FaSearch } from 'react-icons/fa';
+import { Link } from 'react-router-dom'; 
 
 const Hero = () => {
   return (
@@ -48,7 +49,7 @@ const Hero = () => {
 
           <div className="flex flex-row gap-3 justify-center items-center">
             <a 
-              href="#projects" 
+              href="/AvailablePlots" 
               className="btn bg-primary hover:bg-primary-dark text-white border-none text-sm md:text-lg px-6 py-3 shadow-lg rounded-lg"
             >
               <FaSearch className="mr-2" /> View Plots
