@@ -102,10 +102,10 @@ const ProjectDetails = () => {
                     
                     {/* Buttons */}
                     <div className="flex flex-row justify-center gap-3 w-full max-w-md mx-auto">
-                        <a href="tel:+919022003828" className="btn btn-primary flex-1 text-sm md:text-lg px-4 py-3 md:px-8 md:py-4 shadow-[0_0_20px_rgba(46,125,50,0.6)] animate-pulse">
+                        <a href="tel:+919922042225" className="btn btn-primary flex-1 text-sm md:text-lg px-4 py-3 md:px-8 md:py-4 shadow-[0_0_20px_rgba(46,125,50,0.6)] animate-pulse">
                             <FaPhone className="mr-2"/> Call
                         </a>
-                        <a href={`https://wa.me/919022003828?text=I want brochure for ${project.title}`} target="_blank" rel="noopener noreferrer" className="btn bg-white/10 backdrop-blur-md border-white/50 text-white hover:bg-white hover:text-black flex-1 text-sm md:text-lg px-4 py-3 md:px-8 md:py-4">
+                        <a href={`https://wa.me/919922042225?text=I want brochure for ${project.title}`} target="_blank" rel="noopener noreferrer" className="btn bg-white/10 backdrop-blur-md border-white/50 text-white hover:bg-white hover:text-black flex-1 text-sm md:text-lg px-4 py-3 md:px-8 md:py-4">
                             <FaWhatsapp className="mr-2"/> Brochure
                         </a>
                     </div>
@@ -226,7 +226,7 @@ const ProjectDetails = () => {
                 <div className="bg-blue-50 p-6 rounded-xl border border-blue-100">
                     <h4 className="font-bold text-blue-900 mb-2 flex items-center gap-2"><FaFileAlt /> Download Layout</h4>
                     <a 
-                      href={`https://wa.me/919022003828?text=Send PDF for ${project.title}`}
+                      href={`https://wa.me/919922042225?text=Send PDF for ${project.title}`}
                       target="_blank"
                       className="w-full btn bg-blue-600 text-white hover:bg-blue-700 block text-center"
                     >

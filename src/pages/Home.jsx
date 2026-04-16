@@ -17,7 +17,7 @@ const Home = () => {
     "@type": "RealEstateAgent",
     "name": "RD-Estate & Developers",
     "image": "https://rd-estate.in/assets/images/logo.png",
-    "telephone": "+919022003828",
+    "telephone": "+919922042225",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Shop No. 4, Pune - Solapur Highway",
@@ -32,17 +32,50 @@ const Home = () => {
   return (
     <>
       <SEO 
-        /* 1. ADD NAME HERE: This appears on Google Search */
-        title="RD-Estate | Best Plots for Sale in Pune"
-        description="RD-Estate offers premium residential plots in Pune. 100% clear title, ready possession, and loan facility available. Trusted by 100+ families."
-        keywords="rd estate, plots in pune, land for sale,land for sale pune, land for sale loni kalbhor, na plots hadapsar"
+        /* UPDATED: Stronger Keyword Targeting */
+        title="RD-Estate | Premium Residential Plots in Pune, Loni & Hadapsar"
+        description="RD-Estate offers trusted land investments in Pune. 100% Clear Title Plots in Loni Kalbhor, Hadapsar & Uruli Kanchan. RERA registered & Loan facility available."
+        keywords="rd estate, plots in pune, land for sale loni kalbhor, na plots hadapsar, uruli kanchan plots, clear title land pune, investment plots pune"
         schema={orgSchema}
       />
       <Hero />
       <Services />
       
-      {/* Projects Section */}
-     
+      {/* Featured Projects Section (ADDED) */}
+      <section className="py-12 md:py-20 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-10 md:mb-16">
+            <h2 className="text-2xl md:text-4xl font-bold text-secondary mb-3 md:mb-4">
+              Featured Investment Opportunities
+            </h2>
+            <p className="text-gray-600 text-base md:text-lg max-w-2xl mx-auto">
+              Prime land parcels in high-growth corridors. <strong>Clear Title. Ready Possession.</strong>
+            </p>
+            <div className="w-16 md:w-24 h-1 bg-primary mx-auto mt-4 md:mt-6 rounded-full"></div>
+          </div>
+
+          {featuredProjects.length > 0 ? (
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+              {featuredProjects.map((project) => (
+                <ProjectCard key={project.id} project={project} />
+              ))}
+            </div>
+          ) : (
+             <div className="text-center py-10">
+                <p className="text-xl text-gray-500">New premium layouts launching soon.</p>
+             </div>
+          )}
+
+          <div className="text-center mt-8 md:mt-12">
+            <a 
+              href="/plots" 
+              className="w-full md:w-auto inline-block bg-secondary hover:bg-primary text-white font-bold py-3 px-8 rounded-full transition-all duration-300 transform hover:-translate-y-1 shadow-lg border-2 border-transparent hover:border-white text-center"
+            >
+              View All Properties
+            </a>
+          </div>
+        </div>
+      </section>
 
       <About />
       <Testimonials />
@@ -58,9 +91,7 @@ const Home = () => {
                   <div className="w-24 h-1 bg-primary mx-auto mt-6 rounded-full"></div>
               </div>
               
-              {/* REPLACED FORM WITH CONTACT DETAILS */}
               <ContactDetails /> 
-              
           </div>
       </section>
     </>

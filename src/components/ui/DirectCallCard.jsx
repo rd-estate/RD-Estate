@@ -19,7 +19,7 @@ const DirectCallCard = ({ projectTitle }) => {
           </div>
           <div>
             <p className="text-xs text-gray-500 font-bold uppercase tracking-wider">Project Owner</p>
-            <h4 className="font-bold text-secondary">Mr. Raj Dugane</h4>
+            <h4 className="font-bold text-secondary">Mr. Kshitij Dugane</h4>
             <p className="text-xs text-green-700 flex items-center gap-1">
               <span className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></span> Available Now
             </p>
@@ -29,14 +29,14 @@ const DirectCallCard = ({ projectTitle }) => {
         {/* Action Buttons */}
         <div className="space-y-3">
           <a 
-            href="tel:+919022003828" 
+            href="tel:+919922042225" 
             className="flex items-center justify-center gap-3 w-full bg-primary hover:bg-primary-dark text-white font-bold py-4 rounded-lg shadow-lg hover:shadow-green-900/30 transition-all transform hover:-translate-y-1 text-lg"
           >
-            <FaPhoneAlt className="animate-pulse" /> Call +91 90220 03828
+            <FaPhoneAlt className="animate-pulse" /> Call +91 9922042225
           </a>
           
           <a 
-            href={`https://wa.me/919022003828?text=Hello, I am interested in ${projectTitle}. Please send details.`} 
+            href={`https://wa.me/919922042225?text=Hello, I am interested in ${projectTitle}. Please send details.`} 
             target="_blank" 
             rel="noopener noreferrer"
             className="flex items-center justify-center gap-3 w-full bg-white border-2 border-[#25D366] text-[#25D366] font-bold py-3 rounded-lg hover:bg-[#25D366] hover:text-white transition-all"

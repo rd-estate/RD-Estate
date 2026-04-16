@@ -1,16 +1,19 @@
-import { FaWhatsapp } from 'react-icons/fa';
+import { FaWhatsapp } from "react-icons/fa";
 
 const WhatsAppFloat = () => {
   return (
-    <a 
-      href="https://wa.me/919022003828" 
-      target="_blank" 
+    <a
+      href="https://wa.me/919922042225"
+      target="_blank"
       rel="noopener noreferrer"
-      className="fixed bottom-6 right-6 z-50 bg-[#25D366] text-white p-4 rounded-full shadow-lg hover:scale-110 transition-transform duration-300 flex items-center justify-center"
+      className="fixed bottom-6 right-6 bg-[#25D366] hover:bg-[#1ebe5d] text-white p-4 rounded-full shadow-2xl z-50 transition-all duration-300 hover:scale-110 animate-bounce"
       aria-label="Chat on WhatsApp"
     >
-      <FaWhatsapp className="text-3xl" />
+      <FaWhatsapp className="w-7 h-7" />
     </a>
+
+      
+
   );
 };
 

@@ -45,24 +45,24 @@ export const projectsData = [
     ]
   },
   {
-    id: "vasant-park-1",
-    type: "completed",  // <--- This moves it to the Completed Page
-    slug: "vasant-park",
-    title: "Vasant Park",
-    status: "Sold Out",
-    price: "Sold Out",
-    shortPrice: "Sold Out",
+    id: "SAI MEADOWS",
+    type: "ongoing",  // <--- This moves it to the Completed Page
+    slug: "SAI MEADOWS",
+    title: "Sai Meadows",
+    status: "New Launch",
+    price: "₹60 Lakhs",
+    shortPrice: "₹60 Lakhs",
     location: "Bhekrai Nagar (Near Hadapsar)",
-    description: "Premium residential plots in Bhekrai Nagar. Fully developed society with families residing.",
+    description: "Premium Row House plots in Bhekrai Nagar. 2 & 3 BHK Row Houses with modern amenities.With clear titles.Spacious Internal R.C.C Roads, Street Lights, and a Gated Community for your safety.",
     videoSrc: "https://www.youtube.com/embed/B36hIvna7Rs",
     posterSrc: "/assets/images/vasant.JPG",
     features: [
-      { icon: <FaRulerCombined/>, title: "Size", desc: "1000 sq.ft." },
+      { icon: <FaRulerCombined/>, title: "Size", desc: "1400 & 2100 sq.ft." },
       { icon: <FaMapMarkerAlt/>, title: "Location", desc: "Hadapsar" },
     ],
     mapSrc:"https://www.google.com/maps/embed?pb=!4v1750526196572!6m8!1m7!1sGic9NZJGSWH1IIxbFHr5eQ!2m2!1d18.47015212176395!2d73.96355247875104!3f88.43589981072765!4f-16.596231730731617!5f0.7820865974627469",
-    amenities: ["Water Connection", "Electricity", "Drainage Line"],
-    galleryImages: ["/assets/images/vasant.JPG", "/assets/images/vasant-f1.png"]
+    amenities: ["Water Connection", "Electricity", "Drainage Line", "Gated Community", "Street Lights", "Garden", "Clubhouse"],
+    galleryImages: ["/assets/videos/saimeadow.mp4", "/assets/images/vasant.JPG", "/assets/images/vasant-f1.png",]
   },
   {
     id: "gurudatta-park",

@@ -18,10 +18,10 @@ const ContactDetails = () => {
           <div>
             <h3 className="text-xl font-bold text-secondary mb-2">Call Us</h3>
             <p className="text-gray-600 mb-2">For Site Visits & Bookings:</p>
-            <a href="tel:+919022003828" className="text-2xl font-bold text-primary hover:text-primary-dark transition-colors block">
+            <a href="tel:+919922042225" className="text-2xl font-bold text-primary hover:text-primary-dark transition-colors block">
               +91 90220 03828
             </a>
-            <a href="https://wa.me/919022003828" className="inline-flex items-center gap-2 text-green-600 font-semibold mt-2 hover:underline">
+            <a href="https://wa.me/+919922042225" className="inline-flex items-center gap-2 text-green-600 font-semibold mt-2 hover:underline">
               <FaWhatsapp /> Chat on WhatsApp
             </a>
           </div>

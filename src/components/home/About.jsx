@@ -2,9 +2,9 @@ import { FaCheck } from 'react-icons/fa';
 
 const About = () => {
   return (
-    <section id="about" className="py-20 bg-white overflow-hidden">
+    <section id="about" className="py-10 md:py-20 bg-white overflow-hidden">
       <div className="container mx-auto px-4">
-        <div className="flex flex-col lg:flex-row items-center gap-16">
+        <div className="flex flex-col lg:flex-row items-center gap-8 md:gap-16">
           
           {/* Image Side */}
           <div className="w-full lg:w-1/2 relative">
