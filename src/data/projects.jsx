@@ -62,7 +62,7 @@ export const projectsData = [
     ],
     mapSrc:"https://www.google.com/maps/embed?pb=!4v1750526196572!6m8!1m7!1sGic9NZJGSWH1IIxbFHr5eQ!2m2!1d18.47015212176395!2d73.96355247875104!3f88.43589981072765!4f-16.596231730731617!5f0.7820865974627469",
     amenities: ["Water Connection", "Electricity", "Drainage Line", "Gated Community", "Street Lights", "Garden", "Clubhouse"],
-    galleryImages: ["/assets/videos/saimeadow.mp4", "/assets/images/vasant.JPG", "/assets/images/vasant-f1.png",]
+    galleryImages: ["https://youtu.be/_HZkm29pQpA", "/assets/images/vasant.JPG", "/assets/images/vasant-f1.png"]
   },
   {
     id: "gurudatta-park",
