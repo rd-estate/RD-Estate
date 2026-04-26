@@ -44,9 +44,7 @@ const ProjectCard = ({ project }) => {
           <div className="flex items-center gap-1 text-[10px] text-gray-600 bg-gray-50 px-2 py-1 rounded">
              <FaRoad className="text-green-600"/> 40ft Roads
           </div>
-          <div className="flex items-center gap-1 text-[10px] text-gray-600 bg-gray-50 px-2 py-1 rounded">
-             <span className="font-bold text-blue-600">RERA</span> Approved
-          </div>
+          
         </div>
 
         <Link 
