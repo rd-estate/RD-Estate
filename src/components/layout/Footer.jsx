@@ -28,7 +28,7 @@ const Footer = () => {
         <div>
           <h3 className="text-xl font-bold mb-4 border-b-2 border-primary inline-block pb-1">Locations</h3>
            <ul className="space-y-2">
-            {['Loni Kalbhor', 'Hadapsar', 'Wagholi', 'Hinjewadi'].map(item => (
+            {['Loni Kalbhor', 'Kunjirwadi', 'Hadapsar', 'Hinjewadi'].map(item => (
               <li key={item}><a href="#" className="text-gray-300 hover:text-primary transition-colors">{item}</a></li>
             ))}
           </ul>

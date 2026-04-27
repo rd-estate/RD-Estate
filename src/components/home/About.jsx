@@ -43,7 +43,6 @@ const About = () => {
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
               {[
-                "RERA Registered Projects",
                 "Assistance for 7/12 Transfer",
                 "Fencing & Demarcation",
                 "Lifetime Plot Maintenance"
